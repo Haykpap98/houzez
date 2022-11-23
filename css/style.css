@@ -1,0 +1,99 @@
+.back {
+  background-image: linear-gradient(180deg, rgba(0, 28, 81, 0.68) 0%, #001c51 100%), url(/img/about-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  position: relative;
+}
+.navbar .text-reset {
+  padding-top: 25px;
+  text-decoration: none;
+  color: white !important;
+  font-weight: 500;
+  padding-left: 14px;
+}
+.navbar .text-reset:hover {
+  color: #48aa48 !important;
+}
+
+.title {
+  height: 700px;
+}
+.title .houzez_section_title {
+  color: #FFFFFF;
+  font-family: "Raleway", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3em;
+  letter-spacing: -0.5px;
+  margin-bottom: 5px;
+}
+.title .houzez_section_subtitle {
+  color: #61CE70;
+  font-family: "Nunito", Sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+.title span {
+  font-family: "Nunito", Sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+.title i {
+  color: #61CE70;
+  font-size: 24px;
+}
+.title .registration {
+  width: 65%;
+  padding: 35px;
+  background: white;
+}
+.title .registration h2 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.title .registration .houzez_section_subtitle {
+  font-family: "Nunito", Sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 0px;
+  color: #7A7A7A;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title .registration #name {
+  margin: 5px;
+  width: 40%;
+  border: 1px solid #7A7A7A;
+}
+.title .registration #mobile {
+  margin: 5px;
+  width: 40%;
+}
+.title .registration #email {
+  margin: 5px;
+  width: 84%;
+}
+.title .registration #gdpr {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.title .registration .gdpr-text {
+  color: #7A7A7A;
+}
+.title .registration .button {
+  text-align: center;
+  padding-top: 20px;
+}
+.title .registration .button button {
+  background-color: #61CE70;
+  border: none;
+  width: 70%;
+  height: 35px;
+}/*# sourceMappingURL=style.css.map */

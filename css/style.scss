@@ -1,0 +1,110 @@
+
+.back{
+    background-image:
+    linear-gradient((180deg, rgba(0,28,81,0.68) 0%, #001c51 100%)),
+     url(/img/about-3.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: relative;
+    .text-reset{
+        padding-top: 25px;
+        text-decoration: none;
+        color: white!important;
+        font-weight: 500;
+        padding-left: 14px;
+        &:hover{
+            color: #48aa48!important;           
+        }
+    }
+  
+}
+
+.title{
+    height: 700px;   
+   
+    .houzez_section_title{
+        color: #FFFFFF;
+        font-family: "Raleway", Sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.3em;
+        letter-spacing: -0.5px;
+        margin-bottom: 5px;
+    }
+    .houzez_section_subtitle{
+        color: #61CE70;
+        font-family: "Nunito", Sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 1.3em;
+        
+    }
+    span{
+        font-family: "Nunito", Sans-serif;
+        font-size: 18px;
+        line-height: 1.7em;
+        color: #FFFFFF;
+        padding-left: 5px;
+        
+    }
+    i{
+        color: #61CE70;
+        font-size: 24px;
+    }
+    .registration{
+        width: 65%;
+        padding: 35px;
+        background: white;
+        h2{
+            font-family: "Raleway", Sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .houzez_section_subtitle{
+            font-family: "Nunito", Sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            margin-bottom: 0px;  
+            color: #7A7A7A;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        #name{
+            margin: 5px;
+            width: 40%;
+            border: 1px solid #7A7A7A;
+        } 
+        #mobile{
+            margin: 5px;
+            width: 40%;
+          
+        }
+        #email{
+            margin: 5px;
+            width: 84%;
+       
+        }
+        #gdpr{
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        .gdpr-text{         
+                color: #7A7A7A;
+                        
+        }
+        .button{
+           text-align: center;
+           padding-top: 20px;
+            button{
+                background-color: #61CE70;
+                border: none;
+                width: 70%;
+                height: 35px;
+               
+            }
+
+        }
+        }
+    }
