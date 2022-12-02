@@ -1,0 +1,331 @@
+.elementor-section-first {
+  background-image: linear-gradient(180deg, rgba(0, 28, 81, 0.68) 0%, #001c51 100%), url(/img/about-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-section-first .navbar {
+  position: relative;
+}
+.elementor-section-first .navbar .text-reset {
+  text-decoration: none;
+  color: white !important;
+  font-weight: 500;
+  padding-left: 14px;
+  position: relative;
+  padding: 7px;
+}
+.elementor-section-first .navbar .text-reset:hover {
+  color: #48aa48 !important;
+  background: rgba(43, 93, 187, 0.25);
+}
+.elementor-section-first .navbar .topnav {
+  overflow: hidden;
+}
+.elementor-section-first .navbar .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.elementor-section-first .navbar .topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .elementor-section-first .navbar .topnav a {
+    display: none;
+  }
+  .elementor-section-first .navbar .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .elementor-section-first .navbar .topnav.responsive {
+    position: relative;
+  }
+  .elementor-section-first .navbar .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .elementor-section-first .navbar .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .navbar {
+    background-color: rgba(0, 28, 81, 0.58);
+  }
+}
+.elementor-section-first .title-first {
+  height: 140vh;
+  padding-left: 10%;
+}
+.elementor-section-first .title-first .title-first-left .houzez_section_title h2 {
+  color: #FFFFFF;
+  font-family: "Raleway", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3em;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+.elementor-section-first .title-first .title-first-left .houzez_section_subtitle p {
+  color: #61CE70;
+  font-family: "Nunito", Sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+.elementor-section-first .title-first .title-first-left .elementor-group input {
+  width: 40%;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .title-first-left .elementor-group input {
+    margin: 5px;
+    width: 130%;
+    border-radius: 10px;
+  }
+  .elementor-section-first .title-first .title-first-left .elementor-group #form-field-name {
+    margin-bottom: 10px;
+  }
+}
+.elementor-section-first .title-first .title-first-left .email {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.elementor-section-first .title-first .title-first-left .email input {
+  width: 81%;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .title-first-left .email input {
+    margin: 5px;
+    width: 130%;
+    border-radius: 10px;
+  }
+}
+.elementor-section-first .title-first .title-first-left .message textarea {
+  width: 81%;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .title-first-left .message textarea {
+    margin: 5px;
+    width: 130%;
+    border-radius: 10px;
+  }
+}
+.elementor-section-first .title-first .title-first-left #gdpr {
+  color: #ffffff;
+  font-weight: 600;
+}
+.elementor-section-first .title-first .title-first-left .gdpr-text {
+  color: rgba(255, 255, 255, 0.71);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7em;
+}
+.elementor-section-first .title-first .title-first-left .button {
+  padding-top: 20px;
+}
+.elementor-section-first .title-first .title-first-left .button button {
+  background-color: #61CE70;
+  border: none;
+  width: 80%;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .title-first-left .button button {
+    width: 130%;
+  }
+}
+.elementor-section-first .title-first .title-first-right {
+  list-style: none;
+  color: #ffffff;
+  padding-top: 25px;
+}
+.elementor-section-first .title-first .title-first-right p {
+  color: #48aa48;
+  font-family: "Nunito", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.elementor-section-first .title-first .title-first-right i {
+  color: #61CE70;
+  font-size: 18px;
+  padding-right: 15px;
+}
+.elementor-section-first .title-first .logo {
+  text-align: center;
+  padding-top: 13%;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .logo {
+    padding-top: 50%;
+  }
+}
+.elementor-section-first .title-first .footer-icon {
+  padding-top: 2%;
+  list-style: none;
+  color: #ffffff;
+}
+.elementor-section-first .title-first .footer-icon .icons {
+  display: flex;
+  padding: 0;
+}
+.elementor-section-first .title-first .footer-icon .icons li {
+  padding-left: 25px;
+}
+.elementor-section-first .title-first .footer-icon .icons li i {
+  border: 1px solid rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  background: #001c51;
+}
+.elementor-section-first .title-first .footer-icon .icons li i:hover {
+  background: #7A7A7A;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first .footer-icon .icons li {
+    padding-left: 0;
+  }
+}
+.elementor-section-first .title-first .footer-text {
+  text-align: center;
+  padding-top: 15px;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-first .title-first {
+    padding-left: 0;
+    padding-top: 15%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .elementor-section-first .title-first {
+    text-align: center;
+    padding-right: 25%;
+    padding-top: 15%;
+  }
+}
+
+.elementor-section-footer {
+  background-image: linear-gradient(180deg, rgba(0, 28, 81, 0.68) 0%, #001c51 100%), url(/img/about-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3%;
+}
+.elementor-section-footer .title-second-title {
+  padding-top: 10%;
+  padding-bottom: 2%;
+  width: 100%;
+  text-align: center;
+}
+.elementor-section-footer .title-second-title h2 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3em;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.elementor-section-footer .title-second-title p {
+  color: #61CE70;
+  font-family: "Nunito", Sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+.elementor-section-footer .footer-input {
+  list-style: none;
+  padding-left: 10%;
+}
+.elementor-section-footer .footer-input input {
+  width: 80%;
+  font-size: 16px;
+  min-height: 47px;
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+.elementor-section-footer .footer-input p {
+  color: #48aa48;
+  font-family: "Nunito", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 7%;
+}
+.elementor-section-footer .footer-input i {
+  color: #61CE70;
+  font-size: 18px;
+  padding-right: 15px;
+}
+.elementor-section-footer .footer-input li {
+  color: #ffffff;
+  padding-top: 5px;
+}
+.elementor-section-footer .footer-input button {
+  background: #61CE70;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin: 0 10px;
+  width: 80%;
+}
+.elementor-section-footer .logo {
+  text-align: center;
+  padding-top: 15%;
+}
+.elementor-section-footer .footer-icon {
+  padding-top: 2%;
+  list-style: none;
+  color: #ffffff;
+}
+.elementor-section-footer .footer-icon .icons {
+  display: flex;
+  padding: 0;
+}
+.elementor-section-footer .footer-icon .icons li {
+  padding-left: 25px;
+}
+.elementor-section-footer .footer-icon .icons li i {
+  border: 1px solid rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  background: #001c51;
+}
+.elementor-section-footer .footer-icon .icons li i:hover {
+  background: #7A7A7A;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-footer .footer-icon .icons li {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .elementor-section-footer .footer-icon .icons li {
+    padding-left: 0;
+  }
+}
+.elementor-section-footer .footer-text {
+  text-align: center;
+  padding-top: 15px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.contact.css.map */
