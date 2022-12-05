@@ -5,6 +5,7 @@
 }
 .elementor-section-first .navbar {
   position: relative;
+  padding-top: 30px;
 }
 .elementor-section-first .navbar .text-reset {
   text-decoration: none;
@@ -26,14 +27,14 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 13px;
 }
 .elementor-section-first .navbar .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1050px) {
   .elementor-section-first .navbar .topnav a {
     display: none;
   }
@@ -42,7 +43,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1050px) {
   .elementor-section-first .navbar .topnav.responsive {
     position: relative;
   }
@@ -57,7 +58,7 @@
     text-align: left;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1050px) {
   .elementor-section-first .navbar {
     background-color: rgba(0, 28, 81, 0.58);
   }

@@ -4,9 +4,9 @@
     url(/img/about-3.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
-    .navbar{       
+    .navbar{  
         position: relative;
-        padding-top: 25px;
+        padding-top: 30px;
         @media only screen and (max-width: 600px) {
             img {
              display: flex;
@@ -37,16 +37,16 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
-            padding: 14px 16px;
+            padding: 8px 10px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 13px;
           }
                    
           .topnav .icon {
             display: none;
           }
           
-          @media screen and (max-width: 600px) {
+          @media screen and (max-width: 1050px) {
             .topnav a {display: none;}
             .topnav a.icon {
               float: right;
@@ -54,7 +54,7 @@
             }
           }
           
-          @media screen and (max-width: 600px) {
+          @media screen and (max-width: 1050px) {
             .topnav.responsive {position: relative;}
             .topnav.responsive .icon {
               position: absolute;
@@ -69,11 +69,11 @@
           }
       
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1050px) {
         .navbar {
             background-color:rgba(0,28,81,0.58);
           }
-        }
+    }
     .title-first{
         height: 60vh; 
         padding-top: 7%;
@@ -459,7 +459,6 @@
         .footer-input{
          display: flex;
          flex-direction: column;     
-         border: 1px solid red;
          width: 100%;
          max-width: 100%;
          input{

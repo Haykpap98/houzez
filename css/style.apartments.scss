@@ -5,7 +5,7 @@
 
     .navbar {
         position: relative;
-
+        padding-top: 30px;
         .text-reset{         
            
             text-decoration: none;
@@ -29,16 +29,16 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
-            padding: 14px 16px;
+            padding: 8px 10px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 13px;
           }
                    
           .topnav .icon {
             display: none;
           }
           
-          @media screen and (max-width: 760px) {
+          @media screen and (max-width: 1050px) {
             .topnav a {display: none;}
             .topnav a.icon {
               float: right;
@@ -46,7 +46,7 @@
             }
           }
           
-          @media screen and (max-width: 760px) {
+          @media screen and (max-width: 1050px) {
             .topnav.responsive {position: relative;}
             .topnav.responsive .icon {
               position: absolute;
@@ -59,8 +59,9 @@
               text-align: left;
             }
           }
+      
     }
-    @media only screen and (max-width: 760px) {
+    @media only screen and (max-width: 1050px) {
         .navbar {
             background-color:rgba(0,28,81,0.58);
           }

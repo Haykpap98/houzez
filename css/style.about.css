@@ -5,7 +5,7 @@
 }
 .elementor-section-first .navbar {
   position: relative;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 @media only screen and (max-width: 600px) {
   .elementor-section-first .navbar img {
@@ -32,14 +32,14 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 13px;
 }
 .elementor-section-first .navbar .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .elementor-section-first .navbar .topnav a {
     display: none;
   }
@@ -48,7 +48,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .elementor-section-first .navbar .topnav.responsive {
     position: relative;
   }
@@ -63,7 +63,7 @@
     text-align: left;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1050px) {
   .elementor-section-first .navbar {
     background-color: rgba(0, 28, 81, 0.58);
   }
@@ -418,7 +418,6 @@
   .elementor-section-footer .footer-input {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 100%;
     max-width: 100%;
   }

@@ -1,6 +1,8 @@
 .elementor-section-first .navbar {
   position: relative;
   background: #28a745;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .elementor-section-first .navbar .text-reset {
   text-decoration: none;
@@ -10,10 +12,6 @@
   position: relative;
   padding: 7px;
 }
-.elementor-section-first .navbar .text-reset:hover {
-  color: #48aa48 !important;
-  background: rgba(43, 93, 187, 0.25);
-}
 .elementor-section-first .navbar .topnav {
   overflow: hidden;
 }
@@ -22,14 +20,14 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 13px;
 }
 .elementor-section-first .navbar .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .elementor-section-first .navbar .topnav a {
     display: none;
   }
@@ -38,7 +36,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .elementor-section-first .navbar .topnav.responsive {
     position: relative;
   }
@@ -178,6 +176,11 @@
 .elementor-section-footer .footer-icon .icons li i:hover {
   background: #7A7A7A;
   cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .elementor-section-footer .footer-icon .icons li {
+    padding-left: 0;
+  }
 }
 .elementor-section-footer .footer-text {
   text-align: center;

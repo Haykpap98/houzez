@@ -4,7 +4,8 @@
     .navbar{
         position: relative;
         background:  #28a745;
-     
+        padding-top: 25px;
+        padding-bottom: 25px;
         .text-reset{         
            
             text-decoration: none;
@@ -13,10 +14,7 @@
             padding-left: 14px;
             position: relative;           
             padding: 7px;
-            &:hover{  
-                color: #48aa48!important;
-                background: rgba(43, 93, 187, 0.25);              
-            }
+
           
         }
           .topnav {
@@ -28,9 +26,9 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
-            padding: 14px 16px;
+            padding: 8px 10px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 13px;
           }
                    
           .topnav .icon {
@@ -38,7 +36,7 @@
           }
           
        
-          @media screen and (max-width: 1100px) {
+          @media screen and (max-width: 1200px) {
             .topnav a {display: none;}
             .topnav a.icon {
               float: right;
@@ -46,7 +44,7 @@
             }
           }
           
-          @media screen and (max-width: 1100px) {
+          @media screen and (max-width: 1200px) {
             .topnav.responsive {position: relative;}
             .topnav.responsive .icon {
               position: absolute;
