@@ -7,7 +7,6 @@
     background-size: cover;
     .navbar{       
         position: relative;
-        padding-top: 30px;
         @media only screen and (max-width: 600px) {
             img {
              display: flex;
@@ -20,13 +19,14 @@
             text-decoration: none;
             color: white!important;
             font-weight: 500;
-            padding-left: 14px;
-            position: relative;           
-            padding: 7px;
+            position: relative;                    
             &:hover{  
                 color: #48aa48!important;
-                background: rgba(43, 93, 187, 0.25);              
+                background: rgba(43, 93, 187, 0.25);  
+                
             }
+          
+            
           
         }
           .topnav {
@@ -38,11 +38,23 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
-            padding: 8px 10px;
+            padding: 30px 10px;
             text-decoration: none;
             font-size: 13px;
+           
           }
-                   
+          #tel-number{
+            padding: 30px 2px!important;
+        }
+        &:hover #tel-number{
+            background: none!important;
+        }   
+           #person{
+            padding: 30px 2px!important;
+           }   
+           &:hover #person{
+            background: none!important;
+           }       
           .topnav .icon {
             display: none;
           }
@@ -481,6 +493,19 @@
         @media only screen and (max-width: 780px) {
             .title-second-title{
                padding-top: 10%!important;
+               h2{
+                padding-left: 25px;
+               }
+               .line1:before {
+                content: "";
+                display: block;
+                width: 3%;
+                height: 2px;
+                background: #008400;
+                margin-top: 15px;
+                margin-left: 50%;
+               
+              }
             }
         }
         @media only screen and (max-width: 800px) {

@@ -5,15 +5,12 @@
 }
 .elementor-section-first .navbar {
   position: relative;
-  padding-top: 30px;
 }
 .elementor-section-first .navbar .text-reset {
   text-decoration: none;
   color: white !important;
   font-weight: 500;
-  padding-left: 14px;
   position: relative;
-  padding: 7px;
 }
 .elementor-section-first .navbar .text-reset:hover {
   color: #48aa48 !important;
@@ -27,9 +24,21 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 8px 10px;
+  padding: 30px 10px;
   text-decoration: none;
   font-size: 13px;
+}
+.elementor-section-first .navbar #tel-number {
+  padding: 30px 2px !important;
+}
+.elementor-section-first .navbar:hover #tel-number {
+  background: none !important;
+}
+.elementor-section-first .navbar #person {
+  padding: 30px 2px !important;
+}
+.elementor-section-first .navbar:hover #person {
+  background: none !important;
 }
 .elementor-section-first .navbar .topnav .icon {
   display: none;
